@@ -1,6 +1,5 @@
-## Android Developer Nanodegree: PROJECT 1
 # Sandwich Club App
-
+## Android Developer Nanodegree: PROJECT 1
 Used **API 27: Android 8.1 (Oreo)**
 
 ## Screenshots
