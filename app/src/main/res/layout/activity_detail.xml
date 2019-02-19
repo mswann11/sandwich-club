@@ -37,6 +37,7 @@
                     android:text="@string/detail_place_of_origin_label"
                     android:paddingRight="4dp"
                     android:textSize="18sp"
+                    android:textAllCaps="true"
                     android:textStyle="bold" />
 
                 <TextView
@@ -44,14 +45,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
-                    android:paddingBottom="12dp" />
+                    android:paddingBottom="8dp" />
 
             </LinearLayout>
+
+            <View
+                android:id="@+id/origin_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#D3D3D3"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingTop="16dp">
                 <TextView
                     android:id="@+id/also_known_label_tv"
                     android:layout_width="wrap_content"
@@ -59,6 +67,7 @@
                     android:text="@string/detail_also_known_as_label"
                     android:paddingRight="4dp"
                     android:textSize="18sp"
+                    android:textAllCaps="true"
                     android:textStyle="bold" />
 
                 <TextView
@@ -66,14 +75,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
-                    android:paddingBottom="12dp" />
+                    android:paddingBottom="8dp" />
 
             </LinearLayout>
+
+            <View
+                android:id="@+id/also_known_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#D3D3D3"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingTop="16dp">
 
                 <TextView
                     android:id="@+id/ingredients_label_tv"
@@ -82,6 +98,7 @@
                     android:text="@string/detail_ingredients_label"
                     android:paddingRight="4dp"
                     android:textSize="18sp"
+                    android:textAllCaps="true"
                     android:textStyle="bold" />
 
                 <TextView
@@ -89,14 +106,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
-                    android:paddingBottom="12dp" />
+                    android:paddingBottom="8dp" />
 
             </LinearLayout>
+
+            <View
+                android:id="@+id/ingredients_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#D3D3D3"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingTop="16dp">
 
                 <TextView
                     android:id="@+id/description_label_tv"
@@ -105,6 +129,7 @@
                     android:text="@string/detail_description_label"
                     android:paddingRight="4dp"
                     android:textSize="18sp"
+                    android:textAllCaps="true"
                     android:textStyle="bold" />
 
                 <TextView

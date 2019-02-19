@@ -80,8 +80,10 @@ public class DetailActivity extends AppCompatActivity {
             originTv.setText(sandwich.getPlaceOfOrigin());
         } else {
             TextView originLabelTv = findViewById(R.id.origin_label_tv);
+            View originLine = findViewById(R.id.origin_line);
             originLabelTv.setVisibility(View.GONE);
             originTv.setVisibility(View.GONE);
+            originLine.setVisibility(View.GONE);
         }
 
         TextView alsoKnownTv = findViewById(R.id.also_known_tv);
@@ -94,8 +96,10 @@ public class DetailActivity extends AppCompatActivity {
             }
         } else {
             TextView alsoKnownLabelTv = findViewById(R.id.also_known_label_tv);
+            View alsoKnownLine = findViewById(R.id.also_known_line);
             alsoKnownLabelTv.setVisibility(View.GONE);
             alsoKnownTv.setVisibility(View.GONE);
+            alsoKnownLine.setVisibility(View.GONE);
         }
 
         TextView descriptionTv = findViewById(R.id.description_tv);
@@ -118,8 +122,10 @@ public class DetailActivity extends AppCompatActivity {
             }
         } else {
             TextView ingredientsLabelTv = findViewById(R.id.ingredients_label_tv);
+            View ingredientsLine = findViewById(R.id.ingredients_line);
             ingredientsLabelTv.setVisibility(View.GONE);
             ingredientsTv.setVisibility(View.GONE);
+            ingredientsLine.setVisibility(View.GONE);
         }
     }
 }
